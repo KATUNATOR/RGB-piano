@@ -1,0 +1,32 @@
+unit Unit3;
+
+interface
+
+uses Windows, SysUtils, Classes, Graphics, Forms, Controls, StdCtrls,
+  Buttons, ExtCtrls, jpeg;
+
+type
+  TAboutBox1 = class(TForm)
+    OKButton: TButton;
+    lbl1: TLabel;
+    lbl2: TLabel;
+    img1: TImage;
+    lbl3: TLabel;
+    lbl4: TLabel;
+    img2: TImage;
+    lbl5: TLabel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  AboutBox1: TAboutBox1;
+
+implementation
+
+{$R *.dfm}
+
+end.
+ 
